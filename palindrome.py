@@ -30,7 +30,7 @@ class Solution:
     def isPalindrome(self, s):
         #type s: string
         #return type: boolean
-        if s == s[;;-1] and len(s) > 6 :
+        if s == s[::-1] and len(s) > 6 :
                 return True
         return False
         #TODO: Write code below to return a boolean value with the solution to the prompt.
